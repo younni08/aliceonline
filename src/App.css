@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+/* --------------------------------------------------------------------------------------- */
+.app{
+  display:flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width:100%;
+  font-family: 'Jua', sans-serif;
 }
-
-.App-link {
-  color: #61dafb;
+.header_wrapper{
+  top:0px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  height:120px;
+  color:#fff;
+  background-color: rgba( 0,0,0, 0.5 );
+  width:100%;
+  position: fixed;
+  box-shadow: 5px 1px 6px 0 rgba(32,33,36,.28);
 }
+.header_left{
+  display:flex;
+  position:relative;
+  height:120px;
+}
+.header_left > span{
+  display:flex;
+  position: absolute;
+  font-weight:bold;
+  white-space: nowrap;
+  top:12px;
+  left:85px;
+  font-size:62px;
+  cursor: pointer;
+  user-select: none;
+  text-shadow:2px 2px 2px #51547e;
+}
+.header_mid{
+  display:flex;
+  font-size:24px;
+}
+.header_mid > div{
+  margin:0px 10px;
+}
+.header_right{
+  display:flex;
+  font-size:24px;
+  margin:0px 50px 0px 0px;
+}
+.header_right > span{
+  
+}
+.Boo{
+  display:flex;
+  flex-direction: column;
+  min-height:800px;
+  margin:0px 0px;
+}
+.Boo_level1{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.boo_video{
+  width:100%;
+  position: absolute;
+  z-index: -1;
+}
+.Boo_level2{
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.footer{
+  display:flex;
+  flex-direction: column;
+  background-color: rgba(109, 107, 126, 0.5);
+  align-items: center;
+  width:100%;
+  padding:10px 0px;
+}
+.footer_level1{
+  display:flex;
+}
+.footer_level1 > span{
+  margin:0px 5px;
+}
+.footer_level2{
+  display:flex;
 }
