@@ -1,3 +1,6 @@
+/* body{
+  width:100px;
+} */
 /* --------------------------------------------------------------------------------------- */
 .app{
   display:flex;
@@ -18,6 +21,7 @@
   position: fixed;
   box-shadow: 5px 1px 6px 0 rgba(32,33,36,.28);
   z-index: 10;
+  overflow: hidden;
 }
 .header_left{
   display:flex;
@@ -97,6 +101,7 @@
   display:flex;
   justify-content: center;
   margin:0px 0px 20px 0px;
+  width:100px;
 }
 
 .swiper-container {
@@ -251,7 +256,8 @@
 .footer{
   display:flex;
   flex-direction: column;
-  background-color: rgba(109, 107, 126, 0.5);
+  background:#f4d1a7;
+  border-top:solid 3px #333333;
   align-items: center;
   width:100%;
   padding:10px 0px;
@@ -284,6 +290,22 @@
   top:-100px;
   width:100%;
   z-index: 1;
+}
+.plate > div:nth-child(2){
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  margin:10% 0px -300px 0px;
+}
+.review_span{
+  display:flex;
+  color:#fff;
+  margin:2px 0px;
+  font-size:22px;
+  padding: 1px 5px;
+  background-color: rgba(0,0,0,0.4);
 }
 .plate > div:last-child{
   display:flex;
@@ -351,4 +373,22 @@ p{
 }
 .corona img{
  border-radius: 10px;
+}
+.review_link{
+  padding:0px 0px 200px 0px;
+  margin:100px 0px 0px 0px;
+}
+.review_link span{
+  padding:20px;
+  border:solid 2px #fff;
+  cursor: pointer;
+  font-size:30px;
+  color:#fff;
+  background-color: rgba(0,0,0,0.4);
+}
+.mobile_menu{
+  display:none;
+}
+.mobile_menu2{
+  display:none;
 }

@@ -6,8 +6,9 @@ import Coupon from "./components/coupon";
 import Pc from "./components/pc";
 import Review from "./components/review";
 import './App.css';
+import './mobile.css';
 import './swiper-bundle.css';
-import {BrowserRouter as Router,Switch,Route,Link,NavLink} from "react-router-dom";
+import {HashRouter as Router,Switch,Route,Link,NavLink} from "react-router-dom";
 
 const App = () => {
   const sendto = () => {
@@ -42,6 +43,12 @@ const App = () => {
             <div className="header_right">
                 <span onClick={sendto}>문의하기</span>
             </div>
+            <div className="mobile_menu">
+              ㅁ
+            </div>
+            <div className="mobile_menu2">
+              <span></span>
+            </div>
         </div>
         <Switch>
           <Route exact path="/" component={Boo} />
@@ -51,6 +58,7 @@ const App = () => {
           <Route exact path="/pc" component={Pc} />
           <Route exact path="/review" component={Review} />
         </Switch>
+        
       </Router>
       <div className="footer">
         <div className="footer_level1">

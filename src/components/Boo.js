@@ -16,13 +16,13 @@ const Boo = () => {
                 </video>
                 <div className="boo_tab">
                     <Swiper
-                    spaceBetween={50}
+                    spaceBetween={0}
                     slidesPerView={1}
                     loop={true}
-                    onSlideChange={() => console.log('slide change')}
+                    // onSlideChange={() => console.log('slide change')}
                     onSwiper={(swiper) => console.log(swiper)}
                     autoplay={{delay:3500,disableOnInteraction:false}}
-                    pagination={{ clickable: true }}
+                    // pagination={{ clickable: true }}
                     >
                         <SwiperSlide>
                             <div className="tabtab">
