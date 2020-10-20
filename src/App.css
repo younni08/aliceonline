@@ -368,6 +368,9 @@ p{
   color:red;
   font-weight:bold;
 }
+.mobile_spacer{
+  margin:0;
+}
 .corona{
   margin:0px 0px 200px 0px;
 }

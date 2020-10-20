@@ -11,6 +11,7 @@ const Mvp = () => {
                 <span></span>
             </div>
             <div>
+                <div className="mobile_spacer"> </div>
                 <span className="review_span">이용후기 게시판은 실제로 이용하신 고객님들이 작성해주신 소중한 후기입니다.</span>
                 <span className="review_span">더 노력하는 앨리스가 되겠습니다.</span>
                 <span className="review_span">감사합니다.</span>

@@ -43,12 +43,6 @@ const App = () => {
             <div className="header_right">
                 <span onClick={sendto}>문의하기</span>
             </div>
-            <div className="mobile_menu">
-              ㅁ
-            </div>
-            <div className="mobile_menu2">
-              <span></span>
-            </div>
         </div>
         <Switch>
           <Route exact path="/" component={Boo} />
