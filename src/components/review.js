@@ -20,7 +20,7 @@ const Mvp = () => {
                     <span onClick={sendto}>실명 인증 된 후기 바로가기</span>
                 </div>
             </div>
-            <div>
+            <div className="aaa">
                 <span></span>
                 <div className="main_plate">
                 </div>
